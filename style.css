@@ -4,6 +4,24 @@ body{
   box-sizing: 0;
   background:#ffffff;
   font-family: 'Roboto', sans-serif;
+} 
+@media only screen and (max-width: 600px) {
+   .playertwo{
+     display: none;
+   }
+   .headline_area{
+     padding: 0;
+   }
+   .headline_area h1{
+     font-size: 18px;
+   }
+   .player_box{
+     padding: 0px;
+   }
+   .playerone h2{
+     border-radius: 5px;
+   }
+
 }
 
 .continr{
